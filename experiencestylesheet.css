@@ -1,1 +1,75 @@
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-family: helvetica;
+   font-style: oblique;
+   font-weight: bold ;
+    font-size: 35px;
+    color: white;
+  }
+
+  footer {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-family: helvetica;
+   font-style: oblique;
+   font-weight: bold ;
+    font-size: 35px;
+    color: white;
+  }
+
+.sidebar {
+    background-color: #666;
+    text-align: left;
+    font-family: helvetica;
+    font-size: 30px;
+    color: white;
+}
+
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 50px;
+    width: 100%;
+   font-family: helvetica;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+
+  .panel {
+    padding: 0 50px;
+    background-color: white;
+     font-family: helvetica;
+    
+  }
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+   font-family: helvetica;
+  background-color: #666;
+   justify-content: space-around;
+}
+
+.flex-container > div {
+  background-color: #white;
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+  font-family: helvetica;
+  justify-content: space-around;
+  line-height: 40px;
+  font-size: 30px;
+}
 
