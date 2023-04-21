@@ -80,10 +80,18 @@ footer {
 
 h1 {
   font-family: helvetica;
-  font-size: 25px;
+  
+}
+h2 {
+  font-family: helvetica;
+  
 
 }
+h3 {
+  font-family: helvetica;
+  
 
+}
 .column {
   float: left;
   width: 25%;
