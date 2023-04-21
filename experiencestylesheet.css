@@ -103,3 +103,11 @@ h3 {
   display: table;
   clear: both;
 }
+
+
+.faceimg {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
