@@ -9,7 +9,12 @@ header {
     color: white;
   }
 
-  footer {
+  p {
+    font-family: arial;
+    font-style: oblique;
+    font-size: 15px;
+  }
+footer {
     background-color: #666;
     padding: 30px;
     text-align: center;
@@ -42,12 +47,12 @@ header {
     transition: 0.4s;
   }
   
-  .active, .accordion:hover {
+.active, .accordion:hover {
     background-color: #ccc;
   }
   
 
-  .panel {
+.panel {
     padding: 0 50px;
     background-color: white;
      font-family: helvetica;
@@ -73,3 +78,20 @@ header {
   font-size: 30px;
 }
 
+h1 {
+  font-family: helvetica;
+  font-size: 25px;
+
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
